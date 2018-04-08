@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body,html{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Monoton', cursive;
+    color: #ffffff;
+}
+
+
+#topmenu, #bottommenu {
+    list-style-type: none;
+    overflow: hidden;
+    margin:0;
+}
+
+ .menu li a {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    float: left;
+}
+
+.menu li a:hover {
+    background-color: #0099CC;
+    font-size: 1.2em;
+    transition: font-size 1s;
+    padding: px;
+}
+
+
+.carousel-item{
+    height: 400px;
+    width: 90%;
+}
+.sli-img{
+    width: 100%;
+    height: 100%;
+}
+#submain1, #submain2{
+    padding:px;
+}
+
+.topic{
+    width:49%;
+    border: .1% solid blue;  
+    float:left;
+    height: 200px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: .7%;
+    margin-left: .5%;
+    box-shadow: 5px 5px 15px #000000;    
+}
+
+.footer {
+    background-color: #000000;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.temple{
+    background: url(archaeology1.jpg);  
+}
+
+.aryabhatt{
+    background-image: url(astronomy1.jpg);
+    color:aliceblue;
+}
+.atma{
+     background-image: url(soul.jpg);
+}
+
+.chikitsa{
+     background-image: url(medicalsci.jpg);
+}
+
+.temple, .aryabhatt, .atma, .chikitsa{
+    background-size: 100% 100%;
+}
+
+.clear{
+    clear:both;
+}
